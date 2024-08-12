@@ -1,0 +1,41 @@
+.container {
+    height: 800;
+    width:auto;
+    border-color:rgb(240, 120, 120) !important;
+}
+
+header {
+    height:200px;
+    width:600px;
+    background-color: brown;
+    text-align: center;
+}
+
+aside {
+    vertical-align: top;
+height:400px;
+width:200px;
+background-color: antiquewhite;
+}
+section {
+height:400px;
+width: 350px;
+background-color: blueviolet;
+text-align: center;
+}
+
+footer {
+    height:200px;
+    width:600px;
+    background-color: rgb(41, 143, 10);
+    text-align: center;
+}
+aside,section{
+    display:inline-block
+}
+*{
+    margin:10px;
+    padding:10px;
+    border-radius: 20px;
+    border:1px solid red;
+}
