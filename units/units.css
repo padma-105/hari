@@ -1,0 +1,36 @@
+header {
+    background-color: rgb(212, 6, 40);
+    height:80px;
+}
+body{
+    margin: 0px;
+}
+*{
+  box-sizing: border-box;  
+}
+.container{
+    background-color: beige;
+    margin-right: 50px;
+    padding-block-start: 20px;
+    padding-block-end: 20px;
+    padding-left: 50px;
+}
+section{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border:1px solid greenyellow;
+   box-shadow: 2px 2px 2px goldenrod,3px 3px 2px rgb(102, 102, 227),4px 4px 2px darkmagenta;
+
+}
+p{
+    font-family: oblique,arial;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px lightblue,3px 3px 2px lightcoral,4px 4px 2px darkorchid;
+}
+h1{
+    font-family: italic;
+    font-size: 2rem;
+    text-shadow:3px 3px 2px peachpuff,4px 4px 2px mediumseagreen,5px 5px 2px darkred ;
+}
